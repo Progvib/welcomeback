@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Home!</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('https://th.bing.com/th/id/R.14ab0af50a9f9f3bd334dbc2dc8e4139?rik=PO7fuNYx6l8JLA&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f08%2fWonderful-Nature-Colorful-Scene-HD.jpg&ehk=0HrJNBc%2bzz5o2AEdayde46yRrDdvVexZ3cYpe67%2bL%2fo%3d&risl=&pid=ImgRaw&r=0');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: white;
+            text-shadow: 2px 2px 4px black;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.6);
+            border-radius: 10px;
+        }
+        .image-message {
+            display: flex;
+            align-items: center;
+            margin: 20px 0;
+        }
+        .image-message img {
+            width: 200px;
+            height: auto;
+            border-radius: 10px;
+            margin: 10px;
+        }
+        .image-message:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+        .message {
+            font-size: 18px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Nature Image -->
+        <div class="image-message">
+            <img src="https://imgur.com/46A3wDx.jpg" alt="Nature">
+            <div class="message">
+                Nature awaits your return, just like we do. Welcome home!
+            </div>
+        </div>
+
+        <!-- Family Image -->
+        <div class="image-message">
+            <img src="https://imgur.com/CCApnjx.jpg" alt="Family">
+            <div class="message">
+                A year felt like forever, but now our family is complete again.
+            </div>
+        </div>
+    </div>
+</body>
+</html>
